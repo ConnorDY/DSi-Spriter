@@ -1,0 +1,115 @@
+body
+{
+	margin: 0px;
+	
+	font-size: 10px;
+}
+
+#topscreen
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+	width: 240px;
+	height: 176px;
+}
+
+#bottomscreen
+{
+	position: absolute;
+	top: 176px;
+	left: 0px;
+	
+	width: 240px;
+	height: 176px;
+}
+
+#grid, #colours
+{
+	position: relative;
+	top: 6px;
+	left: 6px;
+	
+	float: left;
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#rt, #rb
+{
+	position: relative;
+	top: 6px;
+	left: -2px;
+	
+	width: 60px;
+	height: 162px;
+	
+	text-align: center;
+	
+	float: right;
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#previewd
+{
+	margin: auto;
+	
+	width: 32px;
+	height: 32px;
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#previewn
+{
+	margin: auto;
+	
+	width: 16px;
+	height: 16px;
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#current
+{
+	margin: auto;
+	
+	width: 40px;
+	height: 40px;
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.pixel, .cpixel
+{
+	width: 4px;
+	height: 8px;
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.dpixel
+{
+	width: 2px;
+	height: 2px;
+}
+
+.npixel
+{
+	width: 1px;
+	height: 1px;
+}
